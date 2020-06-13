@@ -2,13 +2,13 @@ h1{
     font-family: 'Piedra', cursive;
 }
 
-h3{
-    
-}
-
 h4{
     font-family: 'Satisfy', cursive;
-    
+}
+
+h3{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
 }
 
 .jumbotron{
