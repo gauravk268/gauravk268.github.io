@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Piedra', cursive;
+}
+
+h3{
+    
+}
+
+h4{
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.jumbotron{
+    color: #f0f3bd;
+    border-left:10px solid #f0f3bd;
+    border-right:10px solid #f0f3bd;
+}
