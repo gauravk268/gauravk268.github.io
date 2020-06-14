@@ -1,0 +1,20 @@
+h1{font-family: 'Montserrat', sans-serif;background-color: #003049;}
+h2{font-family: 'Concert One', cursive;font-size:40px;}
+h3{font-family: 'Vollkorn', serif;}
+h4{font-family: 'Open Sans', sans-serif;}
+ol{font-family: 'Satisfy', cursive;}
+
+
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+
+    /* margin: auto;  */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+.jumbotron{color: #f0f3bd;
+    border-top: rgb(205, 50, 50);border-left:10px solid #f0f3bd;border-right:10px solid #f0f3bd;}
