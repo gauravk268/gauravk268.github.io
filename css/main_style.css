@@ -1,8 +1,29 @@
-h1{font-family: 'Montserrat', sans-serif;background-color: #003049;}
-h2{font-family: 'Concert One', cursive;font-size:40px;}
-h3{font-family: 'Vollkorn', serif;}
-h4{font-family: 'Open Sans', sans-serif;}
-ol{font-family: 'Satisfy', cursive;}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #003049;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+h2{
+	font-family: 'Concert One', cursive;
+	font-size:40px;
+}
+
+h3{
+	font-family: 'Vollkorn', serif;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+
+ul{
+	font-family: 'Satisfy', cursive;
+	text-align:center;
+	padding: 10px 100px;
+}
 
 
 #bg {
