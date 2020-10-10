@@ -1,12 +1,17 @@
 h1{
-	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Sansita Swashed', cursive;*/
+
+	font-family: 'Crimson Text', serif;
+	color: #ffdf00;
 	background-color: #003049;
-	text-align:center;
+	text-align:left;
 	text-transform:uppercase;
 }
 
 h2{
-	font-family: 'Concert One', cursive;
+	/*font-family: 'Concert One', cursive;*/
+	font-family: 'Playfair Display', serif;
 	font-size:40px;
 }
 
@@ -15,14 +20,17 @@ h3{
 }
 
 h4{
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Lora', serif;
 	text-align:center;
 }
 
 ul{
-	font-family: 'Satisfy', cursive;
-	text-align:center;
-	padding: 10px 100px;
+	/*font-family: 'Satisfy', cursive;*/
+	/*font-family: 'Playfair Display SC', serif;*/
+	font-family: 'Playfair Display', serif;
+	/*text-align:center;*/
+	/*padding: 10px 100px;*/
 }
 
 
