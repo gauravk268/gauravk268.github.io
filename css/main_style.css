@@ -4,14 +4,16 @@
 
 h1{
 	font-family: 'Crimson Text', serif;
-	color: #ffdf00;
+	/*color: #ffdf00;*/
+	color: #fff748;
 	text-align:left;
 	text-transform:uppercase;
 }
 
 h2{
 	font-family: 'Playfair Display', serif;
-	font-size:40px;
+	font-size:0.1em;
+	color: #f9ed4e;
 }
 
 h3{
@@ -20,7 +22,6 @@ h3{
 
 h4{
 	font-family: 'Lora', serif;
-	text-align:center;
 }
 
 ul{
@@ -29,24 +30,66 @@ ul{
 }
 
 body, html{
-	background: #003049;
+	/*background: #003049;*/
+	/*background: #358597;*/
+	background: #072c40;
+	min-height:100vh;
+
+	scroll-behavior: smooth;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+
+#main{
+	padding-top: 5em;
+}
+
+#courses{
+	padding-top: 5em;
+}
+
+#achievements{
+	padding-top: 5em;
+}
+
+#projects{
+	padding-top: 5em;
+}
+
+#nav-bar{
+	/*background: #d2302c;
+	color: #f7f7f9;*/
+
+	background: #080a52;
+	color: #eb2188;
 }
 
 #index-brand{
 	font-family: 'Playfair Display', serif;
 }
 
+#intro{
+	text-align: center;
+}
+
 #lang-list, #skills-list{
 	list-style-type: none;
 }
 
-#container{
+
+.container-fluid{
 	padding-top: 1em;
 	padding-left: 15px;
 	padding-right: 15px;
 
-	color: #f0f3bd;
-	background-color:#003049;
+	/*color: #f0f3bd;*/
+	/*background: #003049;*/
+	/*color: #F4A896;*/
+	/*background: #358597;*/
+	background: #072c40;
+	color: #fdf5a6;
 	width: 100%;
 }
 
