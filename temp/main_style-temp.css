@@ -25,6 +25,15 @@ h4{
 
 ul{
 	font-family: 'Playfair Display', serif;
+	padding-left: 20px;
+}
+
+body, html{
+	background: #003049;
+}
+
+#index-brand{
+	font-family: 'Playfair Display', serif;
 }
 
 #lang-list, #skills-list{
@@ -32,14 +41,15 @@ ul{
 }
 
 #container{
-	padding-top: 6em;
-	padding-left: 20px;
+	padding-top: 1em;
+	padding-left: 15px;
+	padding-right: 15px;
 
 	color: #f0f3bd;
 	background-color:#003049;
 	width: 100%;
 }
 
-body{
-	/*padding-top: 65px;*/
+#lang-list{
+	padding-bottom: 40px;
 }
