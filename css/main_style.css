@@ -1,16 +1,15 @@
-h1{
-	/*font-family: 'Montserrat', sans-serif;*/
-	/*font-family: 'Sansita Swashed', cursive;*/
+/*html{
+	background: orange;
+}*/
 
+h1{
 	font-family: 'Crimson Text', serif;
 	color: #ffdf00;
-	background-color: #003049;
 	text-align:left;
 	text-transform:uppercase;
 }
 
 h2{
-	/*font-family: 'Concert One', cursive;*/
 	font-family: 'Playfair Display', serif;
 	font-size:40px;
 }
@@ -20,30 +19,26 @@ h3{
 }
 
 h4{
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Lora', serif;
 	text-align:center;
 }
 
 ul{
-	/*font-family: 'Satisfy', cursive;*/
-	/*font-family: 'Playfair Display SC', serif;*/
 	font-family: 'Playfair Display', serif;
-	/*text-align:center;*/
-	/*padding: 10px 100px;*/
 }
 
+#lang-list, #skills-list{
+	list-style-type: none;
+}
 
-#bg {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
+#container{
+	padding-top: 6em;
 
-    /* margin: auto;  */
-    min-width: 100%;
-    min-height: 100%;
-  }
+	color: #f0f3bd;
+	background-color:#003049;
+	width: 100%;
+}
 
-
-.jumbotron{color: #f0f3bd;
-    border-top: rgb(205, 50, 50);border-left:10px solid #f0f3bd;border-right:10px solid #f0f3bd;}
+body{
+	/*padding-top: 65px;*/
+}
