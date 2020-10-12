@@ -45,15 +45,6 @@ body{
    flex:1 1 auto;
 }
 
-.container-fluid{
-	padding-top: 1em;
-	padding-left: 15px;
-	padding-right: 15px;
-	background: #072c40;
-	color: #fdf5a6;
-	width: 100%;
-}
-
 #main{
 	padding-top: 5em;
 }
@@ -92,5 +83,9 @@ body{
 }
 
 #main, #projects, #courses, #achievements{
-	padding: 5em 5em 0 5em;
+	padding: 5em 5em 5em;
+}
+
+#achievements{
+	padding-bottom: 5em;
 }
