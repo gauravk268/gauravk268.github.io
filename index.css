@@ -10,7 +10,7 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 0.1em;
+    font-size: 2em;
     color: white;
 }
 
@@ -21,12 +21,6 @@ h3 {
 
 h4 {
     font-family: 'Lora', serif;
-    color: white;
-}
-
-ul {
-    font-family: 'Playfair Display', serif;
-    padding-left: 20px;
     color: white;
 }
 
@@ -41,6 +35,10 @@ body {
 #navbar {
     font-family: 'Playfair Display', serif;
     background: #292826;
+}
+
+#index-brand, #index-other{
+	color: #f9d342;
 }
 
 .scrolling-top {
@@ -66,7 +64,6 @@ body {
 }
 
 
-
 /*.learn-more {
     font-size: 2em;
     font-family: sans;
@@ -85,31 +82,45 @@ body {
     max-height: 64px;
 }*/
 
-#btn-cert{
+ul{
 	color: white;
 }
 
-.certificates{
-	padding-top: 5em;
+.skills-list, .lang-list{
+	font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    color: white;
 }
 
-.thumbnail{
-	margin: 2em 0em 0em 0em;
-	/*border: 2px solid black;*/
+#more{
+	display: none;
 }
 
-.thumbnail:hover{
-	box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
+#btn, #btn-cert, #moreLed {
+    color: white;
+}
+
+.certificates {
+    padding-top: 5em;
+}
+
+.thumbnail {
+    margin: 2em 0em 0em 0em;
+    /*border: 2px solid black;*/
+}
+
+.thumbnail:hover {
+    box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
 #main,
 #courses,
 #projects {
-    padding: 5em 5em 5em;
+    padding: 5em 5em 0 5em;
 }
 
 #achievements {
-    padding: 0 5em 5em 5em;
+    padding: 5em 5em 5em 5em;
 }
 
 #intro {

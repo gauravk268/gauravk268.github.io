@@ -16,15 +16,17 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md fixed-top" id="navbar" style="color: #f9d342">
-        <span class="navbar-header" id="index-brand" style="color: #f9d342"><a class="navbar-brand" href="#">Gaurav</a></span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar" style="color: #f9d342">
+        <span class="navbar-header" id="index-brand"><a id="index-brand" class="navbar-brand" href="#">Gaurav</a></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li><a class="nav-link" href="#projects">Projects</a></li>
                 <li><a class="nav-link" href="#courses">Courses</a></li>
                 <li><a class="nav-link" href="#achievements">Achievements</a></li>
-                <li><a class="nav-link" href="https://gauravk268.github.io/Machine_Learning_Projects/">ML Projects</a></li>
+                <li><a class="nav-link" href="https://gauravk268.github.io/Machine_Learning_Projects/" onclick="alert('You will be redirected to a github page')">ML Projects</a></li>
             </ul>
             <ul class="navbar-nav ml-auto" id="navbar-icons">
                 <li class="nav-item"><a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/gauravk268" style="font-size:2em;color:#4875b4"></a></li>
@@ -34,7 +36,7 @@
             </ul>
         </div>
     </nav>
-    <!-- <script src="https://kit.fontawesome.com/dadac063ad.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/dadac063ad.js" crossorigin="anonymous"></script>
     <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
     <div class="scrolling-top">
         <h1 class="welcome">Hello, folks! 😄</h1>
@@ -57,7 +59,7 @@
                     <th> </th>
                 </tr>
                 <tr>
-                    <td><a href="http://mnnit.ac.in"><img class="col-md-6 thumbnail" src="images/mnnit.png" alt="MNNIT icon"></a></td>
+                    <td><a href="http://mnnit.ac.in"><img class="col-lg-6 col-lg-4 thumbnail" src="images/mnnit.png" alt="MNNIT icon"></a></td>
                     <td>
                         <table>
                             <tr>
@@ -76,7 +78,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"><img class="col-md-6 thumbnail" src="images/jnv.jpeg" alt="JNV Icon"></a></td>
+                    <td><a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"><img class="col-lg-6 col-lg-4 thumbnail" src="images/jnv.jpeg" alt="JNV Icon"></a></td>
                     <td>
                         <table>
                             <tr>
@@ -99,9 +101,9 @@
             </table>
         </div><br><br>
         <div class="row">
-            <div class="col-lg-6 mb-2 column">
+            <div class="col-lg-6 col-lg-4 mb-2 column">
                 <h1>SKILLS</h1>
-                <ul id="skills-list">
+                <ul class="skills-list">
                     <h4>
                         <li>Machine Learning</li>
                         <li>Deep Learning</li>
@@ -113,9 +115,9 @@
                     </h4>
                 </ul>
             </div>
-            <div class="col-lg-6 mb-2 column">
+            <div class="col-lg-6 col-lg-4 mb-2 column">
                 <h1>LANGUAGES & FRAMEWORKS</h1>
-                <ul id="lang-list">
+                <ul class="lang-list">
                     <h4>
                         <li>Python3</li>
                         <li>C, C++</li>
@@ -133,20 +135,29 @@
         <ul>
             <h1>PROJECTS</h1>
             <li>
-                <h3><strong>Finger Detection Using OpenCV</strong></h3>
+                <h3><strong>Finger Detection Using OpenCV </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/Finger_Counting_Using_OpenCV" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
             </li>
-            <h4>A program in python to count the number of fingers in a window of the captured image using the OpenCV library.
-                <button type="button" class="btn btn-primary" href="https://github.com/gauravk268/Finger_Counting_Using_OpenCV">View on Github</button> </h4>
+            <h4>A program in python to count the number of fingers in a window of the captured image using the OpenCV library.</h4>
             <li>
-                <h3><strong>16x16 LED Matrix</strong></h3>
+                <h3><strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/LED_Matrix-16x16" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
             </li>
-            <h4>A 16x 16 (16 rows and 16 columns) LED Matrix with arcade games by Arduino UNO and 4x IC74hc595 shift registers and a Joystick for playing games.
-                <button type="button" class="btn btn-primary" href="https://github.com/gauravk268/LED_Matrix-16x16">View on Github</button> </h4>
+            <h4>
+                A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. The main aim of making this project is to<span id="dots">...</span><span id="more"> make small monitors, which are used in daily life devices, making them more useful, efficient, omnipresent and portable. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.
+                    The working of Matrix includes given stages:
+                    <ol>
+                        <li>When the user turns on the game it asks for which game user wants to play.</li>
+                        <li>Then it starts the game as per the option chosen by the user.</li>
+                        <li>The user starts playing the games.</li>
+                        <li>Then it shows the score of the user, and if the user makes the score more
+                            than the highest score then it will update the highest score. </li>
+                    </ol>
+                </span>
+                <a href="#projects"><button onclick="moreLed()" class="btn btn-info" id="moreLed">Read more</button></a>
+            </h4>
             <li>
-                <h3><strong>Smart Table Fan and Light</strong></h3>
+                <h3><strong>Smart Table Fan and Light </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/Blazer-007/Smart-Table-Fan-and-Lamp" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
             </li>
-            <h4>A fan and lamp having two modes of operation, Auto Mode (Controlled by LM35 and LDR) and Manual Mode (Controlled by potentiometer), Using Atmega32A as the microcontroller.
-                <button type="button" class="btn btn-primary" href="https://github.com/Blazer-007/Smart-Table-Fan-and-Lamp">View on Github</button> </h4>
+            <h4>A fan and lamp having two modes of operation, Auto Mode (Controlled by LM35 and LDR) and Manual Mode (Controlled by potentiometer), Using Atmega32A as the microcontroller.</h4>
             <li>
                 <h3><strong>Line Following Bot</strong></h3>
             </li>
