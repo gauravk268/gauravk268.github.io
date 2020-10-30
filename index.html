@@ -42,16 +42,24 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav" id="index-other">
-                <li><a class="nav-link" href="#projects">Projects</a></li>
+
+                <div class="dropdown" onmouseover="expandProjects()" onmouseout="shrinkProjects()">   
+                    <li><a class="nav-link">Projects</a></li>
+                    <div class="dropdown-content" id="dropdown">
+                        <a href="#projects">Highlights</a>
+                        <a href="https://gauravk268.github.io/Machine_Learning_Projects/" onclick="alert('You will be redirected to github')" target="_blank" >ML Projects</a>
+                        <a href="https://gauravk268.github.io/JavaScript_Projects" onclick="alert('You will be redirected to github')" target="_blank">JavaScript Projects</a>
+                    </div>
+                </div>
+
                 <li><a class="nav-link" href="#courses">Courses</a></li>
                 <li><a class="nav-link" href="#achievements">Achievements</a></li>
-                <li><a class="nav-link" href="https://gauravk268.github.io/Machine_Learning_Projects/">ML Projects</a></li>
             </ul>
             <ul class="navbar-nav ml-auto" id="navbar-icons">
-                <li class="nav-item"><a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/gauravk268" style="font-size:2em;color:#4875b4"></a></li>
-                <li class="nav-item"><a class="nav-link fab fa-github" href="https://github.com/gauravk268" style="font-size:2em;color:#black"></a></li>
-                <li class="nav-item"><a class="nav-link fab fa-twitter" href="https://twitter.com/gaurav_k268" style="font-size:2em;color:#00aced"></a></li>
-                <li class="nav-item"><a class="nav-link fab fa-quora" href="https://quora.com/profile/Gaurav-1297" style="font-size:2em;color:#aa2200"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/gauravk268" onclick="alert('You will be redirected to linkedin')" target="_blank" style="font-size:2em;color:#4875b4"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-github" href="https://github.com/gauravk268" onclick="alert('You will be redirected to github')" target="_blank" style="font-size:2em;color:#black"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-twitter" href="https://twitter.com/gaurav_k268" onclick="alert('You will be redirected to twitter')" target="_blank" style="font-size:2em;color:#00aced"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-quora" href="https://quora.com/profile/Gaurav-1297" onclick="alert('You will be redirected to quora')" target="_blank" style="font-size:2em;color:#aa2200"></a></li>
             </ul>
         </div>
     </nav>
@@ -78,7 +86,7 @@
                     <th> </th>
                 </tr>
                 <tr>
-                    <td><a href="http://mnnit.ac.in"><img class="col-lg-6 col-lg-4 mb-2 thumbnail" src="images/mnnit.png" alt="MNNIT icon"></a></td>
+                    <td><a href="http://mnnit.ac.in" onclick="alert('You will be redirected to MNNIT Allahabad')" target="_blank"><img class="col-lg-6 col-lg-4 mb-2 thumbnail" src="images/mnnit.png" alt="MNNIT icon"></a></td>
                     <td>
                         <table>
                             <tr>
@@ -97,7 +105,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"><img class="col-lg-6 col-lg-4 mb-2 thumbnail" src="images/jnv.jpeg" alt="JNV Icon"></a></td>
+                    <td><a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/" onclick="alert('You will be redirected to JNV Sonbhadra')" target="_blank"><img class="col-lg-6 col-lg-4 mb-2 thumbnail" src="images/jnv.jpeg" alt="JNV Icon"></a></td>
                     <td>
                         <table>
                             <tr>
@@ -156,11 +164,11 @@
         <ul>
             <h1>PROJECTS</h1>
             <li>
-                <h3><strong>Finger Detection Using OpenCV </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/Finger_Counting_Using_OpenCV" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+                <h3><strong>Finger Detection Using OpenCV </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/Finger_Counting_Using_OpenCV" onclick="alert('You will be redirected to github')" target="_blank">View on Github</a></button></h3>
             </li>
             <h4>A program in python to count the number of fingers in a window of the captured image using the OpenCV library.</h4>
             <li>
-                <h3><strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/LED_Matrix-16x16" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+                <h3><strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/LED_Matrix-16x16" onclick="alert('You will be redirected to github')" target="_blank">View on Github</a></button></h3>
             </li>
             <h4>
                 A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. The main aim of making this project is to<span id="dots">...</span><span id="more"> make small monitors, which are used in daily life devices, making them more useful, efficient, omnipresent and portable. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.
@@ -176,7 +184,7 @@
                 <a href="#projects"><button onclick="moreLed()" class="btn btn-info" id="moreLed">Read more</button></a>
             </h4>
             <li>
-                <h3><strong>Smart Table Fan and Light </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/Blazer-007/Smart-Table-Fan-and-Lamp" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+                <h3><strong>Smart Table Fan and Light </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/Blazer-007/Smart-Table-Fan-and-Lamp" onclick="alert('You will be redirected to github')" target="_blank">View on Github</a></button></h3>
             </li>
             <h4>A fan and lamp having two modes of operation, Auto Mode (Controlled by LM35 and LDR) and Manual Mode (Controlled by potentiometer), Using Atmega32A as the microcontroller.</h4>
             <li>
@@ -235,6 +243,13 @@
             </h4>
         </ul>
     </div>
+
+
+    <footer>
+        &copy;  Designed & Developed by Gaurav Kumar
+    </footer>
+
+
     <script src="index.js" type="text/javascript"></script>
 </body>
 

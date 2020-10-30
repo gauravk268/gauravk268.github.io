@@ -32,6 +32,15 @@ body {
     display: block;
 }
 
+footer{
+    font-family: serif;
+    background: #292826;
+    color: white;
+    text-align: center;
+    min-height: 16px;
+}
+
+
 #navbar {
     font-family: 'Playfair Display', serif;
     background: #292826;
@@ -40,6 +49,46 @@ body {
 #index-brand, #index-other{
 	color: gold;
 }
+
+.nav-link:hover{
+    background-color: #2980B9;
+}
+
+
+
+
+.drop {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 5px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+
+
 
 .scrolling-top {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background/pc-conf.jpeg);
@@ -61,6 +110,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 

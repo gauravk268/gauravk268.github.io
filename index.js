@@ -1,3 +1,11 @@
+function expandProjects(){
+    document.getElementById("dropdown").style.display = "block";
+}
+
+function shrinkProjects(){
+    document.getElementById("dropdown").style.display = "none";
+}
+
 var cert = document.getElementById("certificates");
 var open_cert = -1;
 cert.style.display = "none";
