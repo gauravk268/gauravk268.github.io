@@ -32,6 +32,16 @@ body {
     display: block;
 }
 
+footer{
+    font-family: serif;
+    background: #292826;
+    color: white;
+    text-align: center;
+    min-height: 16px;
+}
+
+
+
 #navbar {
     font-family: 'Playfair Display', serif;
     background: #292826;
@@ -178,3 +188,4 @@ ul {
 #lang-list {
     padding-bottom: 40px;
 }
+
