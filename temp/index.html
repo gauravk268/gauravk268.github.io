@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Kumar</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="jquery-3.5.1.slim.min.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar" style="color: #f9d342">
+        <span class="navbar-header" id="index-brand"><a id="index-brand" class="navbar-brand" href="#">Gaurav</a></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav" id="index-other">
+
+                <div class="dropdown" onmouseover="expandProjects()" onmouseout="shrinkProjects()">   
+                    <li><a class="nav-link">Projects</a></li>
+                    <div class="dropdown-content" id="dropdown">
+                        <a href="#projects">Highlights</a>
+                        <a href="https://gauravk268.github.io/Machine_Learning_Projects/">ML Projects</a>
+                        <a href="https://gauravk268.github.io/JavaScript_Projects">JavaScript Projects</a>
+                    </div>
+                </div>
+
+                <li><a class="nav-link" href="#courses">Courses</a></li>
+                <li><a class="nav-link" href="#achievements">Achievements</a></li>
+
+                
+                <li><a class="nav-link" href="https://gauravk268.github.io/Machine_Learning_Projects/">ML Projects</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="navbar-icons">
+                <li class="nav-item"><a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/gauravk268" style="font-size:2em;color:#4875b4"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-github" href="https://github.com/gauravk268" style="font-size:2em;color:#black"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-twitter" href="https://twitter.com/gaurav_k268" style="font-size:2em;color:#00aced"></a></li>
+                <li class="nav-item"><a class="nav-link fab fa-quora" href="https://quora.com/profile/Gaurav-1297" style="font-size:2em;color:#aa2200"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/dadac063ad.js" crossorigin="anonymous"></script>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="scrolling-top">
+        <h1 class="welcome">Hello, folks! 😄</h1>
+        <!-- <p class="learn-more">Learn More About Me!!</p>
+        <img src="images/down-arrow.gif" class="down-arrow"> -->
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="main">
+        <h4 id="intro">
+            <p>My name is Gaurav Kumar and I'm an aspiring Software Developer. I'm from India, currenlty studying Electronics and Communications Engineering at MNNIT Allahabad. I love to learn new things, specially if it is anything technical. 😊</p>
+            <P>When I am free, you can find me scrolling through Quora, busy with Photography, or watching any sci-fi movie. 😉</P>
+            <p>You can find me on Twitter, LinkedIn, or on Quora. Feel Free to Connect. 😇</p>
+            <p>Don't forget to follow me on Github Too!</p>
+        </h4>
+        <div class="education">
+            <h1 id="edu-header">EDUCATION</h1>
+            <div class="row">
+                <div class="col-lg-6 col-lg-4 mb-2 column">
+                    <h2>GRADUATION</h2> 
+                    <a href="http://mnnit.ac.in"><img class="col-lg-6 col-lg-4 thumbnail" src="images/mnnit.png" alt="MNNIT icon" style="width:40%"></a>
+                    <h3>Motilal Nehru National Institute of Technology Allahabad</h3>
+                    <h4><strong>Bachelor of Technology :</strong> 6.95 (Currently in 5th Semester)</h4>
+                </div>
+
+                <div class="col-lg-6 col-lg-4 mb-2 column">
+                    <h2>SCHOOLING</h2>
+                    <a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"><img class="col-lg-6 col-lg-4 thumbnail" src="images/jnv.jpeg" alt="JNV Icon" style="width:40%"></a>
+                    <h3>Jawahar Navodaya Vidyalaya Sonbhadra</h3>
+                    <h4><strong>Bachelor of Technology :</strong> 6.95 (Currently in 5th Semester)</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6 col-lg-4 mb-2 column">
+                <h1>SKILLS</h1>
+                <ul class="skills-list">
+                    <h4>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Data Structure & Operating Systems</li>
+                        <li>Digital Electronics</li>
+                        <li>Embedded Systems</li>
+                        <li>Internet of Things</li>
+                        <li>Robotics</li>
+                    </h4>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-lg-4 mb-2 column">
+                <h1>LANGUAGES & FRAMEWORKS</h1>
+                <ul class="lang-list">
+                    <h4>
+                        <li>Python3</li>
+                        <li>C, C++</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>OpenCV</li>
+                        <li>Ubuntu</li>
+                        <li>Arduino IDE</li>
+                        <li>Jupyter Notebook</li>
+                    </h4>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="projects">
+        <ul>
+            <h1>PROJECTS</h1>
+            <li>
+                <h3><strong>Finger Detection Using OpenCV </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/Finger_Counting_Using_OpenCV" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+            </li>
+            <h4>A program in python to count the number of fingers in a window of the captured image using the OpenCV library.</h4>
+            <li>
+                <h3><strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/gauravk268/LED_Matrix-16x16" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+            </li>
+            <h4>
+                A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. The main aim of making this project is to<span id="dots">...</span><span id="more"> make small monitors, which are used in daily life devices, making them more useful, efficient, omnipresent and portable. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.
+                    The working of Matrix includes given stages:
+                    <ol>
+                        <li>When the user turns on the game it asks for which game user wants to play.</li>
+                        <li>Then it starts the game as per the option chosen by the user.</li>
+                        <li>The user starts playing the games.</li>
+                        <li>Then it shows the score of the user, and if the user makes the score more
+                            than the highest score then it will update the highest score. </li>
+                    </ol>
+                </span>
+                <a href="#projects"><button onclick="moreLed()" class="btn btn-info" id="moreLed">Read more</button></a>
+            </h4>
+            <li>
+                <h3><strong>Smart Table Fan and Light </strong><button type="button" class="btn btn-primary"><a id="btn" href="https://github.com/Blazer-007/Smart-Table-Fan-and-Lamp" onclick="alert('You will be redirected to github')">View on Github</a></button></h3>
+            </li>
+            <h4>A fan and lamp having two modes of operation, Auto Mode (Controlled by LM35 and LDR) and Manual Mode (Controlled by potentiometer), Using Atmega32A as the microcontroller.</h4>
+            <li>
+                <h3><strong>Line Following Bot</strong></h3>
+            </li>
+            <h4>A simple line following bot, which follows a given line strip using IR Sensor And when the line ends it follows the wall using Ultrasonic Sensors and controlled by Arduino Mega.</h4>
+            <li>
+                <h3><strong>Remote Controlled Bot</strong></h3>
+            </li>
+            <h4>A bot controlled by wired remote based on Rocker Bogie Mechanism capable of moving on any terrain.</h4>
+        </ul>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="courses">
+        <ul>
+            <h1>COURSES</h1>
+            <li>
+                <h3>Machine Learning of Stanford University by Andrew Ng (Coursera)</h3>
+            </li>
+            <li>
+                <h3>Deep Learning Specialization(5 Courses) by deeplearning.ai (Coursera)</h3>
+            </li>
+            <ol>
+                <h4>
+                    <li>Neural Networks & Deep Learning</li>
+                    <li>Improving Deep Neural Networks</li>
+                    <li>Structuring Machine Learning Projects</li>
+                    <li>Convolutional Neural Networks</li>
+                    <li>Sequence Models</li>
+                </h4>
+            </ol>
+        </ul>
+        <button class="btn btn-primary btn-cert" onclick="showCert()"><a id="btn-cert" href="#certificates">Want to see my Certificates!</a></button>
+        <div class="certificates" id="certificates">
+            <h1>CERTIFICATES</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/machine_learning.png" alt="certificate machine learning" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/deep_learning_specialisation.png" alt="certificate deep learning specialization" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/neural_networks_and_deep_learning.png" alt="certificate neural networks & deep learning" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/improving_deep_neural_networks.png" alt="certificate improving deep neural networks" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/structuring_machine_learning_projects.png" alt="certificate structuring machine learning projects" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/convolutional_neural_networks.png" alt="certificate convolutional neural networks" style="width:100%"> </div>
+                <div class="col-md-6 col-lg-4 thumbnail"> <img src="images/sequence_models.png" alt="certificate sequence models" style="width:100%"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="achievements">
+        <ul>
+            <h1>ACHIEVEMENTS</h1>
+            <h4>
+                <li>Participated in the e-Yantra competition 2019-20 (IIT Bombay).</li>
+                <li>Runner Up in Embedded System Design Event of Avishkar 2019 (MNNIT Allahabad).</li>
+                <li>Participated in the IARC challenge in Techkriti 2019 (IIT Kanpur).</li>
+                <li>Participated in the IARC and Manual Robotics event of Avishkar 2018 (MNNIT Allahabad).</li>
+            </h4>
+        </ul>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
