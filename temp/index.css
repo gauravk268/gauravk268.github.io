@@ -52,7 +52,8 @@ footer{
     color: gold;
 }
 
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus{
     background-color: #2980B9;
 }
 
@@ -87,7 +88,8 @@ footer{
     display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover,
+.dropdown-content a:focus{
     background-color: #ddd
 }
 
@@ -140,7 +142,8 @@ footer{
     border-radius: 80px;
 }
 
-.section-edu .column:hover{
+.section-edu .column:hover,
+.section-edu .column:focus{
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -158,7 +161,8 @@ ul {
 }
 
 
-.section-skills .column:hover{
+.section-skills .column:hover,
+.section-skills .column:focus{
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -229,10 +233,6 @@ ul {
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
-/*#achievements {
-    padding: 5em 5em 5em 5em;
-}*/
-
 #intro {
     text-align: center;
 }
@@ -246,3 +246,16 @@ ul {
     padding-bottom: 40px;
 }
 
+
+
+
+@media only screen and (max-width: 700px){
+    .section-edu,
+    .section-skills,
+    .section-projects,
+    .section-courses,
+    .section-achiev{
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+}
