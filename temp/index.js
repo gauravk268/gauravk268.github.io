@@ -19,7 +19,7 @@ function moreLed() {
     if (show_more == -1) {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
-        moreText.style.display = "block";
+        moreText.style.display = "inline";
         show_more = show_more^1;
     } else {
         dots.style.display = "inline";
