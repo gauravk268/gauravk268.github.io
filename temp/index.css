@@ -148,8 +148,14 @@ footer{
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
+.column{
+    padding-top: 20px;
+    width: 30%; 
+}
 
-
+.row{
+    width: 100%;
+}
 
 
 .section-skills {
