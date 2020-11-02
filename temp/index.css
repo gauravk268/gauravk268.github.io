@@ -150,7 +150,8 @@ footer{
 
 .column{
     padding-top: 20px;
-    width: 30%; 
+    width: 100%; 
+
 }
 
 .row{
@@ -205,6 +206,13 @@ ul {
 }
 
 
+
+.section-projects,
+.section-courses,
+.section-achiev{
+    max-width: 1000px;
+    float: center;
+}
 
 
 .section-edu,
