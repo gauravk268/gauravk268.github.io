@@ -48,16 +48,16 @@ footer{
     background: #292826;
 }
 
-.name-logo{
-    width: 80px;
-    height: auto;
-
-    display: inline;
+#index-brand{
+    color: white;
+    font-family: 'Sonsie One', cursive;
+    width: 100%; 
+    font-size: 20px;
 }
 
-#index-brand,
-#index-other {
-    color: gold;
+.collapse .nav-link{
+    color: white;
+    font-weight: bold;
 }
 
 .nav-link:hover,
@@ -77,6 +77,10 @@ footer{
 .dropdown {
     position: relative;
     display: inline-block;
+
+    color: #2980B9;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .dropdown-content {
