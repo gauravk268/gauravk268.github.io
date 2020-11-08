@@ -38,6 +38,12 @@ footer{
 
 
 
+
+
+.navbar{
+    font-size: 20px;
+}
+
 #navbar {
     font-family: 'Playfair Display', serif;
     background: #292826;
@@ -46,13 +52,12 @@ footer{
 #index-brand{
     color: white;
     font-family: 'Sonsie One', cursive;
-    width: 100%; 
-    font-size: 20px;
-}
+    width: 100%;}
 
 .collapse .nav-link{
     color: white;
     font-weight: bold;
+    font-family: georgia;
 }
 
 .nav-link:hover,
@@ -107,6 +112,8 @@ footer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background/pc-conf.jpeg);
 
     height: 698px;
+    top: 0;
+    left: 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -278,7 +285,6 @@ ul {
 
 .footer-icon{
     padding-left: 20px;
-    width: auto;
 }
 
 
