@@ -48,6 +48,13 @@ footer{
     background: #292826;
 }
 
+.name-logo{
+    width: 80px;
+    height: auto;
+
+    display: inline;
+}
+
 #index-brand,
 #index-other {
     color: gold;
