@@ -50,12 +50,12 @@ footer{
 }
 
 #index-brand{
-    background-color: red;
-    height: 16px;
+    display: inline;
+    width: 65%;
 }
 
 .collapse{
-    color: purple;
+    color: white;
 }
 
 .nav-link{
