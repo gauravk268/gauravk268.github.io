@@ -50,11 +50,15 @@ footer{
 }
 
 #index-brand{
-    color: white;
-    font-family: 'Sonsie One', cursive;
-    width: 100%;}
+    background-color: red;
+    height: 16px;
+}
 
-.collapse .nav-link{
+.collapse{
+    color: purple;
+}
+
+.nav-link{
     color: white;
     font-weight: bold;
     font-family: georgia;
