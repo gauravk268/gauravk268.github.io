@@ -51,7 +51,11 @@ footer{
 
 #index-brand{
     display: inline;
-    width: 65%;
+    width: 20%;
+}
+
+.navbar-brand{
+    width: 100%;
 }
 
 .collapse{
