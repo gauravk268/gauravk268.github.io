@@ -104,7 +104,7 @@ footer{
 
 .dropdown-content a:hover,
 .dropdown-content a:focus{
-    background-color: #ddd
+    background-color: #ddd;
 }
 
 
@@ -160,6 +160,8 @@ footer{
 .section-edu .column:hover,
 .section-edu .column:focus{
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
+    transition: all 1s;
+    border-radius: 18px;
 }
 
 .column{
@@ -186,6 +188,8 @@ ul {
 .section-skills .column:hover,
 .section-skills .column:focus{
     box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+    transition: all 1s;
 }
 
 .skills-list,
