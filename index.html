@@ -51,39 +51,40 @@
 
 		<!-- NAVBAR -->
 
-		<nav class="navbar navbar-expand-md bg-transparent navbar-link" id="navbar" style="color: #f9d342">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="navbar" style="color: #f9d342">
 
 			<span class="navbar-header navbar-brand" id="index-brand"><a id="index-brand" href="#"> Gaurav </a></span>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+				style="border: 2px solid white; background: white;">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav" id="index-other">
 
-					<div class="dropdown" onmouseover="expandProjects()" onmouseout="shrinkProjects()">
-						<li><a class="nav-link">Projects</a></li>
-						<div class="dropdown-content" id="dropdown">
-							<a href="#projects">Highlights</a>
-							<a href="https://gauravk268.github.io/Machine_Learning_Projects/"
-								onclick="alert('You will be redirected to github')" target="_blank">ML Projects</a>
-							<a href="https://gauravk268.github.io/JavaScript_Projects"
-								onclick="alert('You will be redirected to github')" target="_blank">JavaScript
-								Projects</a>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto" id="index-other">
+
+					<li class="nav-item dropdown" onmouseover="expandProjects()" onmouseout="shrinkProjects()">
+						<a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+
+						<div class="dropdown-menu dropdown-content" id="dropdown" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#projects">HighLights</a>
+
+							<a class="dropdown-item" href="https://gauravk268.github.io/Machine_Learning_Projects/" onclick="alert('You will be redirected to github')" target="_blank">ML Projects</a>
+
+							<a class="dropdown-item" href="https://gauravk268.github.io/JavaScript_Projects"
+								onclick="alert('You will be redirected to github')" target="_blank">JavaScript Projects</a>
 						</div>
-					</div>
+					</li>
 
-					<li><a class="nav-link" href="#courses">Courses</a></li>
-					<li><a class="nav-link" href="#achievements">Achievements</a></li>
-				</ul>
-
-				<ul class="navbar-nav ml-auto" id="navbar-icons">
-
+					<li><a class="nav-item nav-link dropdown" href="#courses" role="button">Courses</a></li>
+					<li><a class="nav-item nav-link dropdown" href="#achievements" role="button">Achievements</a></li>
 				</ul>
 			</div>
-
 		</nav>
+
 		<script src="https://kit.fontawesome.com/dadac063ad.js" crossorigin="anonymous"></script>
 
 		<!-- WELCOME MESSAGE -->
