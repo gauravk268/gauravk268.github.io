@@ -1,3 +1,5 @@
+/* default values */
+
 html {
   scroll-behavior: smooth;
 }
@@ -42,6 +44,20 @@ footer {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  font-family: "georgia";
+}
+
+.headTitle {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Georgia";
+  font-weight: bold;
+}
+
+/* other values */
+
 .navbar {
   font-size: 20px;
 }
@@ -51,13 +67,16 @@ footer {
   background: #292826;
 }
 
-#index-brand {
-  color: white;
+.navbar-brand span{
+  color: gold;
+}
+
+.navbar-brand {
   font-family: "Sonsie One", cursive;
   width: 74%;
 }
 
-#navbarNav .nav-item{
+#navbarNav .nav-item {
   color: white;
   font-weight: bold;
   font-family: georgia;
@@ -109,7 +128,7 @@ footer {
 }
 
 .scrolling-top {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(images/background/pc-conf.jpeg);
 
   width: 100%;
@@ -123,24 +142,25 @@ footer {
   background-size: cover;
 }
 
-.welcome-msg{
-  top: 30%;
+.welcome-msg {
+  top: 40%;
   position: relative;
   display: flex;
   z-index: 4;
   flex-direction: column;
 }
 
-.welcome-txt{
-  font-family: 'Georgia';
+.welcome-txt {
+  font-family: "Georgia";
   font-size: 4rem;
   font-weight: bold;
+  text-align: center;
   color: yellow;
   margin: 0 auto;
-  flex:1;
+  flex: 1;
 }
 
-.welcome-face{
+.welcome-face {
   margin: auto;
   text-align: center;
   display: block;
@@ -148,17 +168,12 @@ footer {
 }
 
 .section-intro {
-  padding-top: 700px;
-  max-width: 1000px;
-  float: center;
+  margin-top: 900px;
+  text-align: center;
 }
 
 .section-edu {
   text-align: center;
-}
-
-.section-edu h1 {
-  text-transform: uppercase;
 }
 
 .edu-logo {
@@ -167,57 +182,47 @@ footer {
   border-radius: 80px;
 }
 
-.section-edu .column:hover,
-.section-edu .column:focus {
+.edu-holder {
+  display: flex;
+  flex-direction: row;
+  transition: left 0.5s;
+}
+
+.edu-class {
+  flex: 1;
+}
+
+.edu-class:hover,
+.edu-class:focus {
   box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
-  transition: all 1s;
   border-radius: 18px;
-}
-
-.column {
-  padding-top: 20px;
-  width: 100%;
-}
-
-.row {
-  width: 100%;
+  transition: all 1s;
 }
 
 .section-skills {
-  padding-top: 50px;
-  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
 }
 
-ul {
-  color: white;
-}
-
-.section-skills .column:hover,
-.section-skills .column:focus {
+.skills-holder:hover,
+.skills-holder:focus,
+.lang-holder:hover,
+.lang-holder:focus,
+.tools-holder:hover,
+.tools-holder:focus {
   box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
   border-radius: 18px;
   transition: all 1s;
 }
 
-.skills-list,
-.lang-list,
-.frame-tools-list {
+.skills-holder,
+.lang-holder,
+.tools-holder {
   font-family: "Playfair Display", serif;
-  padding-left: 20px;
+  flex: 1;
   color: white;
+  padding: 2rem;
 }
-
-/* .section-projects{
-
-}
-
-
-
-
-
-.section-courses{
-    
-} */
 
 .section-achiev {
   padding-bottom: 70px;
@@ -278,7 +283,6 @@ ul {
   background-color: #101820ff;
   min-height: 16px;
   padding-bottom: 20px;
-
   text-align: center;
 }
 
@@ -296,3 +300,59 @@ ul {
     padding-left: 20px;
   }
 }
+
+@media (max-width: 600px) {
+  .welcome-txt {
+    font-size: 3rem;
+  }
+
+  #index-brand {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .edu-holder,
+  .section-skills {
+    flex-direction: column;
+  }
+}
+
+@media (max-height: 1024px) {
+  .welcome-msg {
+    top: 25%;
+  }
+}
+
+@keyframes colourChanges {
+  0% {
+    color: #bada55;
+    opacity: 0.5;
+  }
+  25% {
+    color: red;
+    opacity: 0.5;
+  }
+  50% {
+    color: blue;
+    opacity: 0.5;
+  }
+  75% {
+    color: green;
+    opacity: 0.5;
+  }
+  100% {
+    color: yellow;
+    opacity: 0.5;
+  }
+}
+
+/* .gradient-text{
+  background-image: linear-gradient(to left, darkblue,  darkorchid);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+} */
