@@ -54,7 +54,7 @@ footer {
 #index-brand {
   color: white;
   font-family: "Sonsie One", cursive;
-  width: 80%;
+  width: 74%;
 }
 
 #navbarNav .nav-item{
@@ -117,39 +117,34 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-
-  overflow: hidden;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* border: 5px solid green; */
 }
 
 .welcome-msg{
   top: 30%;
-  /* left: 35%;
-  translate(-50%, -50%); */
-  position: absolute;
-  border: 1px solid red;
+  position: relative;
+  display: flex;
+  z-index: 4;
+  flex-direction: column;
 }
 
-.welcome {
-  z-index: 1;
+.welcome-txt{
+  font-family: 'Georgia';
   font-size: 4rem;
+  font-weight: bold;
   color: yellow;
-
-  text-align: center;
-  justify-content: center;
-  margin: auto;
+  margin: 0 auto;
+  flex:1;
 }
 
-.happy-face{
+.welcome-face{
   margin: auto;
   text-align: center;
   display: block;
+  flex: 1;
 }
 
 .section-intro {
