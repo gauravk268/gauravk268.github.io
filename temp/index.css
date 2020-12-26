@@ -196,6 +196,7 @@ a {
 .edu-class:focus {
   box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
   border-radius: 18px;
+  transform: scale(1.05);
   transition: all 1s;
 }
 
@@ -212,6 +213,7 @@ a {
 .tools-holder:focus {
   box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
   border-radius: 18px;
+  transform: scale(1.1);
   transition: all 1s;
 }
 
