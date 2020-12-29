@@ -13,31 +13,17 @@ h1 {
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2em;
-  color: yellow;
+  color: turquoise;
 }
 
 h3 {
   font-family: "Vollkorn", serif;
-  color: white;
+  color: turquoise;
 }
 
 h4 {
   font-family: "Lora", serif;
-  color: white;
-}
-
-body {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  display: block;
+  color: #999;
 }
 
 footer {
@@ -51,7 +37,7 @@ a {
 
 .headTitle {
   font-size: 2.5rem;
-  color: white;
+  color: #66fcf1;
   font-family: "Georgia";
   font-weight: bold;
 }
@@ -67,7 +53,7 @@ a {
   background: #292826;
 }
 
-.navbar-brand span{
+.navbar-brand span {
   color: gold;
 }
 
@@ -132,7 +118,7 @@ a {
     url(images/background/pc-conf.jpeg);
 
   width: 100%;
-  height: 100%;
+  height: 700px;
   position: absolute;
   top: 0;
   left: 0;
@@ -148,6 +134,8 @@ a {
   display: flex;
   z-index: 4;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .welcome-txt {
@@ -160,16 +148,29 @@ a {
   flex: 1;
 }
 
-.welcome-face {
+.welcome-face img {
   margin: auto;
   text-align: center;
   display: block;
   flex: 1;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
-.section-intro {
-  margin-top: 900px;
+.main {
+  margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-intro .container h4 {
   text-align: center;
+  /* color: #c4c5c6; */
+  color: turquoise;
 }
 
 .section-edu {
@@ -177,7 +178,7 @@ a {
 }
 
 .edu-logo {
-  height: 240px;
+  height: 200px;
   width: auto;
   border-radius: 80px;
 }
@@ -200,9 +201,15 @@ a {
   transition: all 1s;
 }
 
-.section-skills {
+.section-skills-wrapper {
   display: flex;
   flex-direction: row;
+}
+
+.skills-holder,
+.lang-holder,
+.tools-holder {
+  flex: 1;
 }
 
 .skills-holder:hover,
@@ -230,20 +237,27 @@ a {
   padding-bottom: 70px;
 }
 
-.section-projects,
-.section-courses,
-.section-achiev {
-  max-width: 1000px;
-  float: center;
-}
-
+.section-intro,
 .section-edu,
 .section-skills,
 .section-projects,
 .section-courses,
 .section-achiev {
-  padding-top: 4.5rem;
-  padding-left: 3rem;
+  padding: 2rem;
+  margin: 0;
+  flex: 1;
+}
+
+.section-intro,
+.section-skills,
+.section-courses {
+  background-color: #1a1a1a;
+}
+
+.section-edu,
+.section-projects,
+.section-achiev {
+  background-color: #0b0c10;
 }
 
 #more {
@@ -268,10 +282,6 @@ a {
   box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
-#intro {
-  text-align: center;
-}
-
 #lang-list,
 #skills-list {
   list-style-type: none;
@@ -286,6 +296,15 @@ a {
   min-height: 16px;
   padding-bottom: 20px;
   text-align: center;
+  padding-top: 10px;
+}
+
+.footer span {
+  font-size: 1.2rem;
+  color: #c5c6c7;
+  font-family: georgia;
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 .footer-icon {
