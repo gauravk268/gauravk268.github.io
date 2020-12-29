@@ -189,6 +189,10 @@ a {
   transition: left 0.5s;
 }
 
+.edu-holder div h3{
+  color: #c5c6c7;
+}
+
 .edu-class {
   flex: 1;
 }
@@ -204,6 +208,10 @@ a {
 .section-skills-wrapper {
   display: flex;
   flex-direction: row;
+}
+
+.section-skills-wrapper div ul h4{
+  color: #c5c6c7;
 }
 
 .skills-holder,
@@ -237,6 +245,10 @@ a {
   padding-bottom: 70px;
 }
 
+.section-achiev .container h4{
+  color: #c5c6c7;
+}
+
 .section-intro,
 .section-edu,
 .section-skills,
@@ -258,6 +270,10 @@ a {
 .section-projects,
 .section-achiev {
   background-color: #0b0c10;
+}
+
+.section-courses .container h3{
+  color: #c5c6c7;
 }
 
 #more {
@@ -330,11 +346,32 @@ a {
   #index-brand {
     width: 70%;
   }
+
+  .headTitle {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  .section-projects .container ul h4{
+    font-size: 1.2rem;
+  } 
+
+  .section-courses .container h3{
+    color: #c5c6c7;
+    font-size: 1.25rem;
+  }
+
+  .section-courses .container ul ol h4{
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 900px) {
   .edu-holder,
-  .section-skills {
+  .section-skills-wrapper {
     flex-direction: column;
   }
 }
