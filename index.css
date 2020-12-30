@@ -109,9 +109,7 @@ footer {
   }
 
 .scrolling-top {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/background/pc-conf.jpeg);
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/background/pc-conf.jpeg);
   height: 698px;
   top: 0;
   left: 0;

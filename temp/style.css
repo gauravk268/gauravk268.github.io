@@ -7,23 +7,36 @@ html {
 h1 {
   font-family: "Crimson Text", serif;
   text-transform: uppercase;
-  color: white;
+  color: white
 }
 
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2em;
-  color: turquoise;
+  color: #22211e;
 }
 
 h3 {
   font-family: "Vollkorn", serif;
-  color: turquoise;
+  color: #292826;
 }
 
 h4 {
   font-family: "Lora", serif;
-  color: #999;
+  color: rgb(65, 49, 49);
+}
+
+body {
+
+  background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: block;
 }
 
 footer {
@@ -37,7 +50,7 @@ a {
 
 .headTitle {
   font-size: 2.5rem;
-  color: #66fcf1;
+  color:#1a1a1a;
   font-family: "Georgia";
   font-weight: bold;
 }
@@ -170,7 +183,7 @@ a {
 .section-intro .container h4 {
   text-align: center;
   /* color: #c4c5c6; */
-  color: turquoise;
+  color:  #1a1a1a;
 }
 
 .section-edu {
@@ -190,7 +203,7 @@ a {
 }
 
 .edu-holder div h3{
-  color: #c5c6c7;
+  color: #292826;
 }
 
 .edu-class {
@@ -212,7 +225,7 @@ a {
 }
 
 .section-skills-wrapper div ul h4{
-  color: #c5c6c7;
+  color: #292826;
 }
 
 .skills-holder,
@@ -247,7 +260,7 @@ a {
 }
 
 .section-achiev .container h4{
-  color: #c5c6c7;
+  color: #292826;
 }
 
 .section-intro,
@@ -261,7 +274,7 @@ a {
   flex: 1;
 }
 
-.section-intro,
+/* .section-intro,
 .section-skills,
 .section-courses {
   background-color: #1a1a1a;
@@ -271,10 +284,10 @@ a {
 .section-projects,
 .section-achiev {
   background-color: #0b0c10;
-}
+} */
 
 .section-courses .container h3{
-  color: #c5c6c7;
+  color: #292826;
 }
 
 #more {
