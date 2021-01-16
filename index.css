@@ -90,14 +90,11 @@ a {
   background-image: linear-gradient(
     to top,
     #3f51b1 0%,
-    #5a55ae 13%,
-    #7b5fac 25%,
-    #8f6aae 38%,
-    #a86aa4 50%,
-    #cc6b8e 62%,
-    #f18271 75%,
-    #f3a469 87%,
-    #f7c978 100%
+    #5a55ae 20%,
+    #7b5fac 40%,
+    #8f6aae 60%,
+    #a86aa4 80%,
+    #cc6b8e 100%
   );
   background-repeat: no-repeat;
   background-size: 100% 100%;
