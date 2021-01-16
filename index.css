@@ -224,7 +224,7 @@ a {
 
 .switch {
   position: absolute;
-  right: 0.5rem;
+  right: 1.75rem;
   display: inline-block;
   width: 60px;
   height: 34px;
@@ -370,8 +370,6 @@ input:checked + .slider:before {
 .edu-class {
   flex: 1;
   padding: 10px 0;
-  max-width: 300px;
-  margin: 0 auto;
 }
 
 .edu-class:hover,
