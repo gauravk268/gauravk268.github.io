@@ -22,7 +22,7 @@
 		content="Aspiring Software Developer from India, interested in Front-end Web Development and Machine Learning.">
 	<meta name="keywords"
 		content="gaurav, kumar, gauravk268, gauravk26800, machine learning, deep learning, web development, front end, javascript, jnv, mnnit, responsive, bootstrap, ubuntu, c, c++, python, git, data structure, operating system">
-	<!-- <meta name="google-site-verification" content="Bnamog9uudJjJEfpZ8YKEYg11YXDE78SJtM0lpkDCTc"> not verifying -->
+	<meta name="google-site-verification" content="iqKfu0KKr52-zFP-kgodZRSoc22LPhHqmrw_etI5cGM" />
 
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="icon" href="images/title_icon.png" type="image/x-icon">
@@ -30,34 +30,26 @@
 	<!-- linking Bootstrap -->
 	<link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
-
 	<script src="bootstrap-4.5.3-dist/js/jquery-3.5.1.min.js"></script>
 	<script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Lora:ital,wght@1,500&display=swap&family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@700&family=Sonsie+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="scrolling-top">
-
-		<!-- NAVBAR -->
+	<div class="scrolling-top container-fluid">
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="navbar" style="color: #f9d342">
 
-			<span class="navbar-header navbar-brand" id="index-brand"><a id="index-brand" href="#"> Gaurav </a></span>
+			<span class="navbar-header navbar-brand" id="index-brand"><span>Gaurav </span></span>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
 				style="border: 2px solid white; background: white;">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav mr-auto" id="index-other">
@@ -83,58 +75,64 @@
 			</div>
 		</nav>
 
+		<label class="switch">
+			<input type="checkbox" id="dayNightToggle">
+			<span class="slider round"></span>
+		</label>
+
 		<script src="https://kit.fontawesome.com/dadac063ad.js" crossorigin="anonymous"></script>
 
 		<!-- WELCOME MESSAGE -->
 
-		<h1 class="welcome">Hello, folks! </br><i><img src="images/welcome-face.png"
-					style="max-width: 85px; display:inline;"></i></h1>
-
+		<div class="welcome-msg">
+			<div class="welcome-face"><img src="images/profile.jpg"></div>
+			<div class="welcome-txt">Hello, folks!</div>
+		</div>
 	</div>
 
 	<!-- MAIN BODY -->
 
-	<div class="main">
-		<div class="section-intro container-fluid">
-			<h4 id="intro">
-				<p>My name is Gaurav Kumar and I'm an aspiring Software Developer. I'm from India, currenlty studying
-					Electronics and Communications Engineering at MNNIT Allahabad. I love to learn new things, specially
-					if it is anything technical. 😊</p>
-				<P>When I am free, you can find me scrolling through Quora, busy with Photography, or watching any
-					sci-fi movie. 😉</P>
-				<p>You can find me on Twitter, LinkedIn, or on Quora. Feel Free to Connect. 😇</p>
-				<p>Don't forget to follow me on Github Too!</p>
-			</h4>
+	<div class="main night">
+		<div class="section-intro">
+			<div class="container">
+				<h4>
+					<p>My name is Gaurav Kumar and I'm an aspiring Software Developer. I'm from India, currenlty studying
+						Electronics and Communications Engineering at MNNIT Allahabad. I love to learn new things, specially if it is
+						anything technical. 😊</p>
+					<p>When I am free, you can find me scrolling through Quora, busy with Photography, or watching any sci-fi movie.
+						😉</p>
+					<p>You can find me on Twitter, LinkedIn, or on Quora. Feel Free to Connect. 😇</p>
+					<p>Don't forget to follow me on Github Too!</p>
+				</h4>
+			</div>
 		</div>
 
-		<div class="section-edu container-fluid">
+		<div class="section-edu">
 
-			<h1>FORMAL EDUCATION</h1>
-			<div class="row">
-				<div class="col-md-6 col-lg-4 col-12 column">
+			<div class="edu headTitle">Formal Education</div>
+			<div class="edu-holder">
+				<div class="edu-class edu-3">
 					<h2>B. Tech.</h2>
 					<a href="http://mnnit.ac.in" onclick="alert('You will be redirected to MNNIT Allahabad')" target="_blank"><img
-							class="edu-logo" src="images/mnnit.png" alt="MNNIT icon"></a></td>
+							class="edu-logo" src="images/mnnit.png" alt="MNNIT icon"></a>
 					<h3>Motilal Nehru National Institute of Technology Allahabad</h3>
-					<h4><strong>Electronics & Communication :</strong> 7.25 (Currently in 6th Semester)</h4>
+					<h4><strong>Electronics & Communication :</strong> 6.95 (Currently in 5th Semester)</h4>
 				</div>
 
-
-				<div class="col-md-6 col-lg-4 col-12 column">
+				<div class="edu-class edu-2">
 					<h2>Class XII</h2>
 					<a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"
 						onclick="alert('You will be redirected to JNV Sonbhadra')" target="_blank"><img class="edu-logo"
-							src="images/jnv.jpeg" alt="JNV Icon"></a></td>
+							src="images/jnv.jpeg" alt="JNV Icon"></a>
 					<h3>Jawahar Navodaya Vidyalaya Sonbhadra</h3>
 					<h4><strong>CBSE :</strong> 92.8%</h4>
 				</div>
 
-
-				<div class="col-md-6 col-lg-4 col-12 column">
+				<div class="edu-class edu-1">
 					<h2>Class X</h2>
 					<a href="https://www.navodaya.gov.in/nvs/nvs-school/SONBHADRA/en/home/"
 						onclick="alert('You will be redirected to JNV Sonbhadra')" target="_blank"><img class="edu-logo"
-							src="images/jnv.jpeg" alt="JNV Icon"></a></td>
+							src="images/jnv.jpeg" alt="JNV Icon"></a>
 					<h3>Jawahar Navodaya Vidyalaya Sonbhadra</h3>
 					<h4><strong>CBSE :</strong> 91.2%</h4>
 				</div>
@@ -143,41 +141,184 @@
 
 		</div>
 
-		<div class="row section-skills">
+		<div class="section-skills">
 
-			<div class="col-md-6 col-lg-4 col-12 column">
-				<h1>SKILLS</h1>
-				<ul class="skills-list">
-					<h4>
-						<li>Machine Learning</li>
-						<li>Deep Learning</li>
-						<li>Data Structure & Operating Systems</li>
-						<li>Front-End Web-Development</li>
-					</h4>
-				</ul>
+			<div class="section-skills-wrapper container">
+				<div class="skills-holder">
+					<div class="skills headTitle">Skills</div>
+					<ul class="skills-list">
+						<h4>
+							<li>Machine Learning</li>
+							<li>Deep Learning</li>
+							<li>Data Structure & Operating Systems</li>
+							<li>Front-End Web-Development</li>
+						</h4>
+					</ul>
+				</div>
+
+				<div class="lang-holder">
+					<div class="lang headTitle">Languages</div>
+					<ul class="lang-list">
+						<h4>
+							<li>C/C++</li>
+							<li>Python3</li>
+							<li>HTML + CSS</li>
+							<li>JavaScript</li>
+						</h4>
+					</ul>
+				</div>
+
+				<div class="tools-holder">
+					<div class="tools headTitle">Tools</div>
+					<ul class="frame-tools-list">
+						<h4>
+							<li>Bootstrap</li>
+							<li>OpenCV</li>
+							<li>GitHub</li>
+							<li>Ubuntu</li>
+							<li>Jupyter Notebook</li>
+						</h4>
+					</ul>
+				</div>
 			</div>
 
-			<div class="col-md-6 col-lg-4 col-12 column">
-				<h1>LANGUAGES</h1>
-				<ul class="lang-list">
-					<h4>
-						<li>C/C++</li>
-						<li>Python3</li>
-						<li>HTML + CSS</li>
-						<li>JavaScript</li>
-					</h4>
+
+		</div>
+
+		<!-- PROJECTS -->
+
+		<div class="section-projects" id="projects">
+			<div class="container">
+				<div class="projects headTitle">Projects</div>
+				<ul>
+					<h3>
+						<li>
+							<strong>Identify the Dance Form </strong><button type="button" class="btn btn-primary"><a id="btn"
+									href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth_Identify_the_Dance_Form"
+									onclick="alert('You will be redirected to github')">View on Github</a></button>
+						</li>
+					</h3>
+					<h4>Designed a CNN model that identifies the dance form of the person in the image and classifies them into
+						various categories of Indian classical Dance Forms</h4><br>
+
+					<h3>
+						<li>
+							<strong>Sentiment Analysis on Mother's Day Tweet </strong><button type="button" class="btn btn-primary"><a
+									id="btn"
+									href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth_Mothers%E2%80%99_Day_with_Machine_Learning"
+									onclick="alert('You will be redirected to github')">View on Github</a></button>
+						</li>
+					</h3>
+					<h4>Designed a NLP classifier using SGD Classifier that analyses the sentiments of a tweet posted during
+						Mother’s Day and classifies them into positive, negative and neutral.</h4><br>
+
+					<h3>
+						<li>
+							<strong>Emotion Detection of Tom & Jerry </strong><button type="button" class="btn btn-primary"><a
+									id="btn"
+									href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth_Emotion_Detection_Tom_Jerry_Cartoon"
+									onclick="alert('You will be redirected to github')">View on Github</a></button>
+						</li>
+					</h3>
+					<h4>Designed a model that detects emotion of the toons i.e. Tom & Jerry Cartoon video, priority is given to
+						Tom, then Jerry, then any other character in the video frame.</h4><br>
+
+					<div id="project-led-mat">
+						<h3>
+							<li>
+								<strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn"
+										href="https://github.com/gauravk268/LED_Matrix-16x16"
+										onclick="alert('You will be redirected to github')">View on Github</a></button>
+							</li>
+						</h3>
+						<h4>
+							A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift
+							registers. The main aim of making this project is to<span id="dots">...</span><span id="more"> make
+								small monitors, which are used in daily life devices, making them more useful, efficient,
+								omnipresent and portable. In this project we are using the LED Matrix as a monitor to display
+								the games that the user will play using the joystick mounted on the project board.
+								The working of Matrix includes given stages:
+								<ol>
+									<li>When the user turns on the game it asks for which game user wants to play.</li>
+									<li>Then it starts the game as per the option chosen by the user.</li>
+									<li>The user starts playing the games.</li>
+									<li>Then it shows the score of the user, and if the user makes the score more
+										than the highest score then it will update the highest score. </li>
+								</ol>
+							</span>
+							<a href="#project-led-mat"><button onclick="moreLed()" class="btn btn-info" id="moreLed">Read
+									more</button></a>
+						</h4><br>
+					</div>
 				</ul>
 			</div>
+		</div>
 
-			<div class="col-md-6 col-lg-4 col-12 column">
-				<h1>TOOLS</h1>
-				<ul class="frame-tools-list">
+		<!-- COURSES -->
+
+		<div class="section-courses" id="courses">
+			<div class="container">
+				<div class="course headTitle">Courses</div>
+				<ul>
+					<h3>
+						<li>Machine Learning of Stanford University by Andrew Ng (Coursera)</li>
+					</h3>
+					<h3>
+						<li>Deep Learning Specialization(5 Courses) by deeplearning.ai (Coursera)</li>
+					</h3>
+					<ol>
+						<h4>
+							<li>Neural Networks & Deep Learning</li>
+							<li>Improving Deep Neural Networks</li>
+							<li>Structuring Machine Learning Projects</li>
+							<li>Convolutional Neural Networks</li>
+							<li>Sequence Models</li>
+						</h4>
+					</ol>
+				</ul>
+
+				<button class="btn btn-primary btn-cert" onclick="showCert()"><a id="btn-cert" href="#certificates">Want to see
+						my
+						Certificates!</a></button>
+
+				<div class="certificates" id="certificates">
+					<div class="cert headTitle">Certificates</div>
+					<div class="row">
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img src="images/certificates/machine_learning.png"
+								alt="certificate machine learning" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
+								src="images/certificates/deep_learning_specialisation.png"
+								alt="certificate deep learning specialization" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
+								src="images/certificates/neural_networks_and_deep_learning.png"
+								alt="certificate neural networks & deep learning" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
+								src="images/certificates/improving_deep_neural_networks.png"
+								alt="certificate improving deep neural networks" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
+								src="images/certificates/structuring_machine_learning_projects.png"
+								alt="certificate structuring machine learning projects" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
+								src="images/certificates/convolutional_neural_networks.png"
+								alt="certificate convolutional neural networks" style="width:100%"> </div>
+						<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img src="images/certificates/sequence_models.png"
+								alt="certificate sequence models" style="width:100%"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ACHIEVEMENTS -->
+
+		<div class="section-achiev" id="achievements">
+			<div class="container">
+				<div class="achiev headTitle">Achievements</div>
+				<ul>
 					<h4>
-						<li>Bootstrap</li>
-						<li>OpenCV</li>
-						<li>GitHub</li>
-						<li>Ubuntu</li>
-						<li>Jupyter Notebook</li>
+						<li>Participated in the e-Yantra competition 2019-20 (IIT Bombay).</li>
+						<li>Runner Up in Embedded System Design Event of Avishkar 2019 (MNNIT Allahabad).</li>
+						<li>Participated in the IARC challenge in Techkriti 2019 (IIT Kanpur).</li>
+						<li>Participated in the IARC and Manual Robotics event of Avishkar 2018 (MNNIT Allahabad).</li>
 					</h4>
 				</ul>
 			</div>
@@ -186,149 +327,13 @@
 
 	</div>
 
-	<!-- PROJECTS -->
 
-	<div class="section-projects" id="projects">
-		<ul>
-			<h1>PROJECTS</h1>
-			<h3>
-				<li>
-					<strong>Identify the Dance Form </strong><button type="button" class="btn btn-primary"><a id="btn"
-							href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth-Identify_the_Dance_Form"
-							target="_blank" onclick="alert('You will be redirected to github')">View on
-							Github</a></button>
-				</li>
-			</h3>
-			<h4>Designed a CNN model that identifies the dance form of the person in the image and classifies them into
-				various categories of Indian classical Dance Forms</h4><br>
-
-
-			<h3>
-				<li>
-					<strong>Sentiment Analysis on Mother's Day Tweet </strong><button type="button" class="btn btn-primary"><a
-							id="btn"
-							href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth-Mothers%E2%80%99_Day_with_Machine_Learning"
-							target="_blank" onclick="alert('You will be redirected to github')">View on
-							Github</a></button>
-				</li>
-			</h3>
-			<h4>Designed a NLP classifier using SGD Classifier that analyses the sentiments of a tweet posted during
-				Mother’s Day and classifies them into positive, negative and neutral.</h4><br>
-
-
-			<h3>
-				<li>
-					<strong>Emotion Detection of Tom & Jerry </strong><button type="button" class="btn btn-primary"><a id="btn"
-							href="https://github.com/gauravk268/Machine_Learning_Projects/tree/master/HackerEarth-Emotion_Detection_Tom_Jerry_Cartoon"
-							target="_blank" onclick="alert('You will be redirected to github')">View on
-							Github</a></button>
-				</li>
-			</h3>
-			<h4>Designed a model that detects emotion of the toons i.e. Tom & Jerry Cartoon video, priority is given to
-				Tom, then Jerry, then any other character in the video frame.</h4><br>
-
-
-			<div id="project-led-mat">
-				<h3>
-					<li>
-						<strong>16x16 LED Matrix </strong><button type="button" class="btn btn-primary"><a id="btn"
-								href="https://github.com/gauravk268/LED_Matrix-16x16" target="_blank"
-								onclick="alert('You will be redirected to github')">View on Github</a></button>
-					</li>
-				</h3>
-				<h4>
-					A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift
-					registers. The main aim of making this project is to<span id="dots">...</span><span id="more"> make
-						small monitors, which are used in daily life devices, making them more useful, efficient,
-						omnipresent and portable. In this project we are using the LED Matrix as a monitor to display
-						the games that the user will play using the joystick mounted on the project board.
-						The working of Matrix includes given stages:
-						<ol>
-							<li>When the user turns on the game it asks for which game user wants to play.</li>
-							<li>Then it starts the game as per the option chosen by the user.</li>
-							<li>The user starts playing the games.</li>
-							<li>Then it shows the score of the user, and if the user makes the score more
-								than the highest score then it will update the highest score. </li>
-						</ol>
-					</span>
-					<a href="#project-led-mat"><button onclick="moreLed()" class="btn btn-info" id="moreLed">Read
-							more</button></a>
-				</h4><br>
-			</div>
-
-		</ul>
-	</div>
-
-	<!-- COURSES -->
-
-	<div class="section-courses" id="courses">
-		<ul>
-			<h1>COURSES</h1>
-			<h3>
-				<li>Machine Learning of Stanford University by Andrew Ng (Coursera)</li>
-			</h3>
-			<h3>
-				<li>Deep Learning Specialization(5 Courses) by deeplearning.ai (Coursera)</li>
-			</h3>
-			<ol>
-				<h4>
-					<li>Neural Networks & Deep Learning</li>
-					<li>Improving Deep Neural Networks</li>
-					<li>Structuring Machine Learning Projects</li>
-					<li>Convolutional Neural Networks</li>
-					<li>Sequence Models</li>
-				</h4>
-			</ol>
-		</ul>
-
-		<button class="btn btn-primary btn-cert" onclick="showCert()"><a id="btn-cert" href="#certificates">Want to see
-				my Certificates!</a></button>
-
-		<div class="certificates" id="certificates">
-			<h1>CERTIFICATES</h1>
-			<div class="row">
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img src="images/certificates/machine_learning.png"
-						alt="certificate machine learning" style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img src="images/certificates/deep_learning_specialisation.png"
-						alt="certificate deep learning specialization" style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
-						src="images/certificates/neural_networks_and_deep_learning.png"
-						alt="certificate neural networks & deep learning" style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
-						src="images/certificates/improving_deep_neural_networks.png"
-						alt="certificate improving deep neural networks" style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
-						src="images/certificates/structuring_machine_learning_projects.png"
-						alt="certificate structuring machine learning projects" style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img
-						src="images/certificates/convolutional_neural_networks.png" alt="certificate convolutional neural networks"
-						style="width:100%"> </div>
-				<div class="col-md-6 col-lg-4 col-12 thumbnail"> <img src="images/certificates/sequence_models.png"
-						alt="certificate sequence models" style="width:100%"> </div>
-			</div>
-		</div>
-	</div>
-
-	<!-- ACHIEVEMENTS -->
-
-	<div class="section-achiev" id="achievements">
-		<ul>
-			<h1>ACHIEVEMENTS</h1>
-			<h4>
-				<li>Selected for Bertelsmann Technology Scholarsip Program 2020.</li>
-				<li>Participated in the e-Yantra competition 2019-20 (IIT Bombay).</li>
-				<li>Runner Up in Embedded System Design Event of Avishkar 2019 (MNNIT Allahabad).</li>
-				<li>Participated in the IARC challenge in Techkriti 2019 (IIT Kanpur).</li>
-				<li>Participated in the IARC and Manual Robotics event of Avishkar 2018 (MNNIT Allahabad).</li>
-			</h4>
-		</ul>
-	</div>
 
 	<!-- FOOTER -->
 
 	<div class="footer footer-dark">
-		<span class="copyright" style="color: white; font-family: georgia;">&copy; 2020, Designed & Developed by Gaurav
-			Kumar</span> </br></br>
+		<span class="copyright">
+			Designed & Developed by Gaurav Kumar</span> </br></br>
 		<footer>
 
 			<a class="footer-icon fab fa-linkedin" href="https://www.linkedin.com/in/gauravk268"

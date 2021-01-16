@@ -1,6 +1,8 @@
-var cert = document.getElementById("certificates");
-var open_cert = -1;
+const cert = document.getElementById("certificates");
+let open_cert = -1;
 cert.style.display = "none";
+let valueMode=1;
+
 
 function expandProjects(){
     document.getElementById("dropdown").style.display = "block";
@@ -8,6 +10,21 @@ function expandProjects(){
 
 function shrinkProjects(){
     document.getElementById("dropdown").style.display = "none";
+}
+
+const dayNightToggle = document.getElementById("dayNightToggle");
+dayNightToggle.addEventListener('click', dayNightChanger);
+
+function dayNightChanger(){
+    const mainContainer = document.querySelector(".main");
+    valueMode ^= 1;
+
+    if(valueMode){  // day mode
+        mainContainer.classList.remove("day");
+    }
+    else{
+        mainContainer.classList.add("day");
+    }
 }
 
 var show_more = -1;

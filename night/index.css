@@ -1,4 +1,4 @@
-/* default values */
+/* default values starts */
 
 html {
   scroll-behavior: smooth;
@@ -7,23 +7,19 @@ html {
 h1 {
   font-family: "Crimson Text", serif;
   text-transform: uppercase;
-  color: white;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2em;
-  color: turquoise;
 }
 
 h3 {
   font-family: "Vollkorn", serif;
-  color: turquoise;
 }
 
 h4 {
   font-family: "Lora", serif;
-  color: #999;
 }
 
 footer {
@@ -37,10 +33,125 @@ a {
 
 .headTitle {
   font-size: 2.5rem;
-  color: #66fcf1;
   font-family: "Georgia";
   font-weight: bold;
 }
+
+.navbar-brand span {
+  color: gold;
+}
+
+/* default values ends */
+
+/* coloring mode=night starts */
+.night h1 {
+  color: white;
+}
+
+.night h2 {
+  color: turquoise;
+}
+
+.night h3 {
+  color: turquoise;
+}
+.night h4 {
+  color: #999;
+}
+
+.night .headTitle {
+  color: #66fcf1;
+}
+
+.night .section-intro .container h4 {
+  color: turquoise;
+}
+
+.night .edu-class {
+  color: #c5c6c7;
+}
+
+.night .section-intro,
+.night .section-skills,
+.night .section-courses {
+  background-color: #1a1a1a;
+}
+
+.night .section-edu,
+.night .section-projects,
+.night .section-achiev {
+  background-color: #0b0c10;
+}
+
+/* coloring mode=night ends */
+
+/* coloring mode=day starts */
+.day{
+  background-image: linear-gradient(
+    to top,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: block;
+}
+
+.day h1 {
+  color: white;
+}
+
+.day h2 {
+  color: #22211e;
+}
+
+.day h3 {
+  color: #292826;
+}
+
+.day h4 {
+  color: rgb(65, 49, 49);
+}
+
+.day .headTitle {
+  color: #1a1a1a;
+}
+
+.day .section-intro .container h4,
+.day .section-courses .container h3,
+.day .section-skills-wrapper div ul h4 {
+  color: #1a1a1a;
+}
+
+.day .edu-holder div h3 {
+  color: #1a1a1a;
+}
+
+.day .section-achiev .container h4{
+  color: #1a1a1a;
+}
+
+.day .section-intro,
+.day .section-skills,
+.day .section-courses {
+  background-color: transparent;
+}
+
+.day .section-edu,
+.day .section-projects,
+.day .section-achiev {
+  background-color: transparent;
+}
+
+/* coloring mode=day ends */
 
 /* other values */
 
@@ -51,10 +162,6 @@ a {
 #navbar {
   font-family: "Playfair Display", serif;
   background: #292826;
-}
-
-.navbar-brand span {
-  color: gold;
 }
 
 .navbar-brand {
@@ -113,6 +220,74 @@ a {
   background-color: #ddd;
 }
 
+/* day to night mode toggle start */
+
+.switch {
+  position: absolute;
+  right: 1.75rem;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: url(https://www.pngfind.com/pngs/m/223-2232869_png-file-svg-moon-icon-circle-png-transparent.png)
+    no-repeat;
+  background-size: 26px 26px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+input:checked + .slider {
+  background-color: #778899;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #bada55;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background: url(https://cdn4.iconfinder.com/data/icons/sun-11/50/44-512.png);
+  background-size: 26px 26px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* day to night mode toggle end */
+
 .scrolling-top {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(images/background/pc-conf.jpeg);
@@ -170,7 +345,6 @@ a {
 .section-intro .container h4 {
   text-align: center;
   /* color: #c4c5c6; */
-  color: turquoise;
 }
 
 .section-edu {
@@ -189,13 +363,15 @@ a {
   transition: left 0.5s;
 }
 
-.edu-holder div h3{
+.edu-holder div h3 {
   color: #c5c6c7;
 }
 
 .edu-class {
   flex: 1;
   padding: 10px 0;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .edu-class:hover,
@@ -204,6 +380,7 @@ a {
   border-radius: 18px;
   transform: scale(1.05);
   transition: all 1s;
+  background-color: rgba(56, 62, 87, 0.3);
 }
 
 .section-skills-wrapper {
@@ -211,7 +388,7 @@ a {
   flex-direction: row;
 }
 
-.section-skills-wrapper div ul h4{
+.section-skills-wrapper div ul h4 {
   color: #c5c6c7;
 }
 
@@ -219,6 +396,8 @@ a {
 .lang-holder,
 .tools-holder {
   flex: 1;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .skills-holder:hover,
@@ -246,7 +425,7 @@ a {
   padding-bottom: 70px;
 }
 
-.section-achiev .container h4{
+.section-achiev .container h4 {
   color: #c5c6c7;
 }
 
@@ -261,19 +440,7 @@ a {
   flex: 1;
 }
 
-.section-intro,
-.section-skills,
-.section-courses {
-  background-color: #1a1a1a;
-}
-
-.section-edu,
-.section-projects,
-.section-achiev {
-  background-color: #0b0c10;
-}
-
-.section-courses .container h3{
+.section-courses .container h3 {
   color: #c5c6c7;
 }
 
@@ -308,7 +475,7 @@ a {
   padding-bottom: 40px;
 }
 
-.footer > .copyright{
+.footer > .copyright {
   font-size: 1rem;
 }
 
@@ -330,6 +497,12 @@ a {
 
 .footer-icon {
   padding-left: 20px;
+}
+
+@media (max-height: 1024px) {
+  .welcome-msg {
+    top: 25%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -360,16 +533,16 @@ a {
     font-size: 1.25rem;
   }
 
-  .section-projects .container ul h4{
+  .section-projects .container ul h4 {
     font-size: 1.2rem;
-  } 
+  }
 
-  .section-courses .container h3{
+  .section-courses .container h3 {
     color: #c5c6c7;
     font-size: 1.25rem;
   }
 
-  .section-courses .container ul ol h4{
+  .section-courses .container ul ol h4 {
     font-size: 1.2rem;
   }
 }

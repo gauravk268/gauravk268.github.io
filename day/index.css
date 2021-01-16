@@ -7,7 +7,7 @@ html {
 h1 {
   font-family: "Crimson Text", serif;
   text-transform: uppercase;
-  color: white
+  color: white;
 }
 
 h2 {
@@ -27,18 +27,23 @@ h4 {
 }
 
 body {
-
   /*
   background: #3494E6;
   background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
   background: linear-gradient(to right, #EC6EAD, #3494E6); 
-    
   */
-
-
-background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
-
-
+  background-image: linear-gradient(
+    to top,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -56,7 +61,7 @@ a {
 
 .headTitle {
   font-size: 2.5rem;
-  color:#1a1a1a;
+  color: #1a1a1a;
   font-family: "Georgia";
   font-weight: bold;
 }
@@ -188,8 +193,7 @@ a {
 
 .section-intro .container h4 {
   text-align: center;
-  /* color: #c4c5c6; */
-  color:  #1a1a1a;
+  color: #1a1a1a;
 }
 
 .section-edu {
@@ -208,7 +212,7 @@ a {
   transition: left 0.5s;
 }
 
-.edu-holder div h3{
+.edu-holder div h3 {
   color: #292826;
 }
 
@@ -230,7 +234,7 @@ a {
   flex-direction: row;
 }
 
-.section-skills-wrapper div ul h4{
+.section-skills-wrapper div ul h4 {
   color: #292826;
 }
 
@@ -265,7 +269,7 @@ a {
   padding-bottom: 70px;
 }
 
-.section-achiev .container h4{
+.section-achiev .container h4 {
   color: #292826;
 }
 
@@ -292,7 +296,7 @@ a {
   background-color: #0b0c10;
 } */
 
-.section-courses .container h3{
+.section-courses .container h3 {
   color: #292826;
 }
 
@@ -327,7 +331,7 @@ a {
   padding-bottom: 40px;
 }
 
-.footer > .copyright{
+.footer > .copyright {
   font-size: 1rem;
 }
 
@@ -379,16 +383,16 @@ a {
     font-size: 1.25rem;
   }
 
-  .section-projects .container ul h4{
+  .section-projects .container ul h4 {
     font-size: 1.2rem;
-  } 
+  }
 
-  .section-courses .container h3{
+  .section-courses .container h3 {
     color: #c5c6c7;
     font-size: 1.25rem;
   }
 
-  .section-courses .container ul ol h4{
+  .section-courses .container ul ol h4 {
     font-size: 1.2rem;
   }
 }
