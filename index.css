@@ -255,7 +255,7 @@ a {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background: url(https://www.pngfind.com/pngs/m/223-2232869_png-file-svg-moon-icon-circle-png-transparent.png)
+  background: url(images/icons/sun.svg)
     no-repeat;
   background-size: 26px 26px;
   -webkit-transition: 0.7s;
@@ -274,7 +274,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-  background: url(https://cdn4.iconfinder.com/data/icons/sun-11/50/44-512.png);
+  background: url(images/icons/moon.svg);
   background-size: 26px 26px;
 }
 
