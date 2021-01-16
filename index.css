@@ -490,14 +490,26 @@ input:checked + .slider:before {
   padding-bottom: 20px;
 }
 
-.footer-icon {
-  padding-left: 20px;
+.footer-icon img {
+  width: 48px;
+  height: 48px;
+  margin: 0 10px;
 }
 
-@media (max-height: 1024px) {
-  .welcome-msg {
-    top: 25%;
-  }
+.footer-icon.linkedin img{
+  filter: invert(45%) sepia(7%) saturate(4292%) hue-rotate(176deg) brightness(92%) contrast(82%);
+}
+
+.footer-icon.github img{
+  filter: invert(100%) sepia(0%) saturate(722%) hue-rotate(206deg) brightness(116%) contrast(101%);
+}
+
+.footer-icon.twitter img{
+  filter: invert(56%) sepia(40%) saturate(4200%) hue-rotate(162deg) brightness(96%) contrast(101%);
+}
+
+.footer-icon.quora img{
+  filter: invert(16%) sepia(99%) saturate(2614%) hue-rotate(8deg) brightness(92%) contrast(104%);
 }
 
 @media only screen and (max-width: 700px) {
@@ -528,6 +540,10 @@ input:checked + .slider:before {
     font-size: 1.25rem;
   }
 
+  .section-intro .container h4{
+    font-size: 1.2rem;
+  }
+
   .section-projects .container ul h4 {
     font-size: 1.2rem;
   }
@@ -538,6 +554,10 @@ input:checked + .slider:before {
   }
 
   .section-courses .container ul ol h4 {
+    font-size: 1.25rem;
+  }
+
+  .section-achiev .container ul h4{
     font-size: 1.2rem;
   }
 }
