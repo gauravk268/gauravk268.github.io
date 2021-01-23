@@ -509,12 +509,18 @@ input:checked + .slider:before {
   display: inline;
 }
 
-.thumbnail {
-  margin: 2em 0em 0em 0em;
+.thumbnail img{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 1rem;
+  z-index: 1;
+  transition: all 0.7s;
 }
 
-.thumbnail:hover {
-  box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.5);
+.certificates .row .thumbnail img:hover,
+.certificates .row .thumbnail img:focus {
+  transform: scale(2);
+  position: relative;
+  z-index: 2;
 }
 
 #lang-list,
