@@ -506,6 +506,7 @@ input:checked + .slider:before {
 
 .certificates {
   padding-top: 5em;
+  display: inline;
 }
 
 .thumbnail {
