@@ -349,7 +349,7 @@ input:checked + .slider:before {
 }
 
 .edu-logo {
-  height: 200px;
+  height: 170px;
   width: auto;
   border-radius: 80px;
 }
@@ -367,6 +367,8 @@ input:checked + .slider:before {
 .edu-class {
   flex: 1;
   padding: 10px 0;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .edu-class:hover,
@@ -494,6 +496,10 @@ input:checked + .slider:before {
   width: 48px;
   height: 48px;
   margin: 0 10px;
+}
+
+.footer-icon img:hover {
+  background-color:rgba(137, 234, 247, 0.863);
 }
 
 .footer-icon.linkedin img{
