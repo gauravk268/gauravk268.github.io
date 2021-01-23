@@ -10,16 +10,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Mono', monospace;  
   font-size: 2em;
 }
 
 h3 {
-  font-family: "Vollkorn", serif;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.5em;
 }
 
 h4 {
-  font-family: "Lora", serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 footer {
@@ -33,12 +34,8 @@ a {
 
 .headTitle {
   font-size: 2.5rem;
-  font-family: "Georgia";
-  font-weight: bold;
-}
+  font-family: 'Righteous', cursive;
 
-.navbar-brand span {
-  color: gold;
 }
 
 /* default values ends */
@@ -86,53 +83,53 @@ a {
 /* coloring mode=night ends */
 
 /* coloring mode=day starts */
-.day{
-  background-image: linear-gradient(
-    to top,
-    #3f51b1 0%,
-    #5a55ae 20%,
-    #7b5fac 40%,
-    #8f6aae 60%,
-    #a86aa4 80%,
-    #cc6b8e 100%
-  );
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  display: block;
-}
-
-.day h1 {
-  color: white;
-}
-
-.day h2 {
-  color: #22211e;
-}
-
-.day h3 {
-  color: #292826;
-}
-
-.day h4 {
-  color: rgb(65, 49, 49);
+.day h3{
+  color: #ee4c7c;
 }
 
 .day .headTitle {
-  color: #1a1a1a;
+  color: #5d001e;
 }
 
-.day .section-intro .container h4,
+.day .section-intro .container h4 {
+  color: #ac3b61;
+}
+
+.day.main .section-intro,
+.day.main .section-skills,
+.day.main .section-courses {
+ background-color: #edc7b7;
+}
+
+.day.main .section-edu,
+.day.main .section-projects,
+.day.main .section-achiev {
+  background-color: #ffcb9a;
+}
+
+.day.main h1 {
+  color: #5d001e;
+}
+
+.day.main h2 {
+  color: #9a1750;
+}
+
+.day h3,
+.day .section-skills h4 li,
+.day .edu-class h3,
+.day .section-courses ul li,
+.day .section-achiev h4 li{
+  color: #ac3b61;
+  text-shadow: 0 0 1px black;
+}
+
+.day.main h4 {
+  color: #ac3b61;
+}
+
 .day .section-courses .container h3,
 .day .section-skills-wrapper div ul h4 {
-  color: #1a1a1a;
-}
-
-.day .edu-holder div h3 {
-  color: #1a1a1a;
-}
-
-.day .section-achiev .container h4{
   color: #1a1a1a;
 }
 
@@ -162,12 +159,20 @@ a {
 }
 
 .navbar-brand {
-  font-family: "Sonsie One", cursive;
-  width: 74%;
+  font-family: 'Playfair Display SC', serif;
+  width: 73%;
+}
+
+#index-brand{
+  color: #f8e9a1;
+  text-shadow: 0 0 1px black;
+  font-size: 2rem;
 }
 
 #navbarNav .nav-item {
-  color: white;
+  color: #fffdd0;  
+  text-shadow: 0 0 1px black;
+  /* background: rgba(0, 0, 0, 0.3); */
   font-weight: bold;
   font-family: georgia;
   margin: 0 0.5rem 0;
@@ -286,7 +291,7 @@ input:checked + .slider:before {
 /* day to night mode toggle end */
 
 .scrolling-top {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(images/background/pc-conf.jpeg);
 
   width: 100%;
@@ -311,11 +316,11 @@ input:checked + .slider:before {
 }
 
 .welcome-txt {
-  font-family: "Georgia";
+  font-family: 'Lobster Two', cursive;
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
-  color: yellow;
+  color: #fce205;
   margin: 0 auto;
   flex: 1;
 }
@@ -341,7 +346,7 @@ input:checked + .slider:before {
 
 .section-intro .container h4 {
   text-align: center;
-  /* color: #c4c5c6; */
+  font-family: 'Comfortaa', cursive;
 }
 
 .section-edu {
@@ -370,6 +375,7 @@ input:checked + .slider:before {
   max-width: 400px;
   margin: 0 auto;
 }
+
 
 .edu-class:hover,
 .edu-class:focus {
