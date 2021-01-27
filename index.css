@@ -47,7 +47,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: turquoise;
+  background-color: #242f3f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@ a {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #edc7b7;
+  background-color: turquoise;
   animation: loader-inner 2s infinite ease-in;
 }
 @keyframes loader {
