@@ -10,5 +10,6 @@ app.get('/', (req, res)=>{
 });
 
 app.listen(process.env.port || 3000, ()=>{
-  console.log("Server up and running on port 3000!!");
+  console.log("Server up and running!!");
+  console.log(process.env.port);
 });
