@@ -570,7 +570,7 @@ input:checked + .slider:before {
 }
 
 .footer-icon img:hover {
-  background-color: rgba(137, 234, 247, 0.863);
+  opacity: 0.7;
 }
 
 .footer-icon.linkedin img {
