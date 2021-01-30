@@ -49,7 +49,7 @@ app.post('/feedback', (req, res)=>{
     name: req.body.name,
     email: req.body.email,
     message: req.body.feedback,
-    localTimeStamp: localTimeDate
+    localTimeStamp: "mm-dd-yyyy: " + localTimeDate
   });
 
   feedback.save(function (err, savedfeedback) {
