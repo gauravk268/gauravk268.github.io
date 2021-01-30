@@ -34,15 +34,22 @@ const feedbackSchema = new mongoose.Schema({
   name: String,
   email: String,
   message: String,
+  localTimeStamp: String,
+  timeStamp: { type : Date, default: Date.now }
 });
 
 app.post('/feedback', (req, res)=>{
   const FeedBack = mongoose.model("FeedBack", feedbackSchema);
 
+  const localTimeDate = new Date().toLocaleString("en-US", { timeZone: 'Asia/Kolkata' }).
+    replace(/\//, '-').
+    replace(/\//, '-');
+  
   const feedback = new FeedBack({
     name: req.body.name,
     email: req.body.email,
-    message: req.body.feedback
+    message: req.body.feedback,
+    localTimeStamp: localTimeDate
   });
 
   feedback.save(function (err, savedfeedback) {
