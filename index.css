@@ -136,7 +136,8 @@ a {
 
 .night .section-intro,
 .night .section-skills,
-.night .section-courses {
+.night .section-courses,
+.night .section-feedback {
   background-color: #1a1a1a;
 }
 
@@ -163,7 +164,8 @@ a {
 
 .day.main .section-intro,
 .day.main .section-skills,
-.day.main .section-courses {
+.day.main .section-courses
+.day.main .section-feedback {
   background-color: #edc7b7;
 }
 
@@ -495,7 +497,8 @@ input:checked + .slider:before {
 .section-skills,
 .section-projects,
 .section-courses,
-.section-achiev {
+.section-achiev,
+.section-feedback {
   padding: 2rem;
   margin: 0;
   flex: 1;
@@ -541,6 +544,17 @@ input:checked + .slider:before {
 
 #lang-list {
   padding-bottom: 40px;
+}
+
+.feedback-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.feedback-element{
+  flex: 1;
 }
 
 .footer > .copyright {
