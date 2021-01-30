@@ -547,14 +547,19 @@ input:checked + .slider:before {
 }
 
 .feedback-wrapper{
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  max-width: 700px;
 }
 
 .feedback-element{
   flex: 1;
+}
+
+.feedback-body .form-control{
+  min-height: 100px;
 }
 
 .footer > .copyright {
