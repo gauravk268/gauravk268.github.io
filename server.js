@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const connectDB = function () {
   const uri =
-    "mongodb://admin-gaurav:Gaurav5005@cluster0-shard-00-00.18tdj.mongodb.net:27017,cluster0-shard-00-01.18tdj.mongodb.net:27017,cluster0-shard-00-02.18tdj.mongodb.net:27017/fruitDB?ssl=true&replicaSet=atlas-7phcdu-shard-0&authSource=admin&retryWrites=true&w=majority";
+    "mongodb://admin-gaurav:Gaurav5005@cluster0-shard-00-00.18tdj.mongodb.net:27017,cluster0-shard-00-01.18tdj.mongodb.net:27017,cluster0-shard-00-02.18tdj.mongodb.net:27017/testDB?ssl=true&replicaSet=atlas-7phcdu-shard-0&authSource=admin&retryWrites=true&w=majority";
 
   console.log("[mongoose] Connecting to database...");
   try {
