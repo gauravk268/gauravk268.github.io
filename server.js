@@ -58,6 +58,7 @@ app.post('/feedback', (req, res)=>{
       res.send("<h2>Could not save your feedback. Please try again.</h2>")
     } else {
       // console.log(savedfeedback);
+      console.log("[mongoose] Feedback saved successfully.");
       res.status(200).sendFile(__dirname + "/public/feedback_success.html")
     }
   });
@@ -69,7 +70,8 @@ app.post("/homepage", (req, res)=>{
 
 
 app.get('/', (req, res)=>{
-  res.status(200).sendFile(__dirname + './index.html');
+  // res.status(200).sendFile(__dirname + './index.html');
+  res.status(200).sendFile(__dirname + './index.min.html');
 });
 
 app.get('/favicon.ico', (req, res)=>{
