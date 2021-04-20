@@ -12,14 +12,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "node server.js"
+    "build": "npm install && node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gauravk268/gauravk268.github.io.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gaurav Kumar",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gauravk268/gauravk268.github.io/issues"
   },
