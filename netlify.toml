@@ -1,2 +1,7 @@
 [build]
-command = "npm install && npm run build"
+  command = "npm install && npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 302
