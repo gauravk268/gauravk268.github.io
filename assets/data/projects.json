@@ -46,5 +46,13 @@
     "description": "A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.",
     "githubLink": "https://github.com/gauravk268/LED_Matrix-16x16",
     "demoLink": ""
+  },
+  {
+    "key": 1117,
+    "title": "test project",
+    "image": "http://gauravk268.github.io/images/project/default.jpg",
+    "description": "A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.",
+    "githubLink": "https://github.com/gauravk268/LED_Matrix-16x16",
+    "demoLink": ""
   }
 ]
