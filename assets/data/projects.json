@@ -13,7 +13,7 @@
     "title": "PORTFOLIO WEBSITE",
     "image": "http://gauravk268.github.io/images/project/portfolio.png",
     "description": "A website to show all my skills and qualifications along with projects. Features: PWA, Responsive design, Preloading animationm, Smooth Scroll. ReactJS, Bootstrap, Firebase, React-Router-Dom.",
-    "githubLink": "",
+    "githubLink": "https://github.com/gauravk268/React-Portfolio-App",
     "demoLink": "https://gauravk.co"
   },
   {
