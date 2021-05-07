@@ -3,7 +3,7 @@
     "key": 1111,
     "title": ".CBS [ Code-Brigade Services ]",
     "image": "http://gauravk268.github.io/images/project/cbs.jpg",
-    "description": "A web-app to provide all services inside a restaurant with minimum contact i.e., using the user’s smartphone or tablet. Provides menu, ordering food, payment, feedback for the services, games/news only after logging in with unique QR on user’s table. ReactJS, NodeJS, MongoDB, PayPal (for Payment).",
+    "description": "A web-app to provide all services inside a restaurant with minimum contact i.e., using the user’s smartphone or tablet.",
 	"seeMoreLink": "https://gauravk268.github.io/Hack36_CodeBrigade",
 	"demoLink": "https://code-brigade.co",
     "githubLink": "https://github.com/gauravk268/Hack36_CodeBrigade"
@@ -13,6 +13,7 @@
     "title": "PORTFOLIO WEBSITE",
     "image": "http://gauravk268.github.io/images/project/portfolio.png",
     "description": "A website to show all my skills and qualifications along with projects. Features: PWA, Responsive design, Preloading animationm, Smooth Scroll. ReactJS, Bootstrap, Firebase, React-Router-Dom.",
+	"seeMoreLink": "https://gauravk268.github.io/React-Portfolio-App/",
     "githubLink": "https://github.com/gauravk268/React-Portfolio-App",
     "demoLink": "https://gauravk.co"
   },
@@ -47,7 +48,7 @@
     "key": 1116,
     "title": "16x16 LED Matrix",
     "image": "http://gauravk268.github.io/images/project/led_matrix.jpg",
-    "description": "A 16x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers. In this project we are using the LED Matrix as a monitor to display the games that the user will play using the joystick mounted on the project board.",
+    "description": "A 16 x 16 (16 rows and 16 columns) LED Matrix controlled by Arduino UNO and 4x IC74hc595 shift registers, user can play games using the joystick mounted on the project board.",
 	"seeMoreLink": "https://gauravk268.github.io/LED_Matrix-16x16/",
     "githubLink": "https://github.com/gauravk268/LED_Matrix-16x16",
     "demoLink": ""
